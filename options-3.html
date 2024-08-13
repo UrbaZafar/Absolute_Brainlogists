@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choosse</title>
+    <link rel="stylesheet" href="options.css">
+
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- <canvas id="mycanvas"></canvas> -->
+    <div id="meelo">
+        <h3 id="trigger">
+            DO YOU KNOW?
+        </h3>
+    </div>
+    <div class="urba hidden" id="facts">
+        <h2> Facts for ur Little brain</h2>
+        <ul>
+       <li> <span class="urb">
+            The first website ever created went live on August 6, 1991. It was dedicated to information about the World Wide Web project and was created by Tim Berners-Lee.<br><br>
+        </span></li>
+        <li><span class="urb">
+            Ada Lovelace is often regarded as the world's first computer programmer.
+        </span></li>
+
+        </ul>
+
+
+        <script>
+            // It adds a "listener" to this heading. This listener waits for you to click on the heading.
+            // Toggle Visibility:
+
+            // This function looks for another element on your webpage with the ID facts (which contains your list of facts).
+            // It then toggles (switches) the class hidden on this element.
+            document.getElementById('trigger').addEventListener('click', function() {
+                document.getElementById('facts').classList.toggle('hidden');
+            });
+        </script>
+
+    </div>
+    <div class="content">
+    <div class="ip">
+        <h1 style="color: #22072e;">
+            Choose your Destiny...
+        </h1>
+    </div>
+
+    <div>
+        <ol>
+            <li id="map" style="color: #22072e; font-size: 18px;">
+                <a href="http://127.0.0.1:5500/project/general-4.html" target="_blank"><b>General Knowledge</b></a>
+            </li>
+            <li id="app" style="color: #22072e; font-size: 18px;">
+                <a href="http://127.0.0.1:5500/project/psychology-5.html" target="_blank"><b>Psychology</b></a>
+            </li>
+        </ol>
+    </div>
+    
+</div>
+   
+    <!-- <script src="quiz.js"> </script> -->
+    
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="psychology.css">
+</head>
+<body>
+    <form id="quiz-container">
+    <div class="main">
+        
+        <div class="mind"></div>
+        <div class="quest">
+        <div >
+            <h2>
+                1-Disorder characterized by a lack of emotions?  </h2>
+
+                <div>
+                <ol>
+                    <li>
+                        <input type="radio" name="q1" value=" Depression" data-score="0" data-correct="false">
+                        Depression
+                    </li>
+                    <li>
+                        <input type="radio" name="q1" value="  Alexithymia" data-score="1" data-correct="true">
+                        Alexithymia
+                    </li>
+                    <li>
+                        <input type="radio" name="q1" value="Difficulty expressing emotions" data-score="0" data-correct="false">
+                        Difficulty expressing emotions
+                    </li>
+                    <li>
+                        <input type="radio" name="q1" value=" Autism Spectrum Disorder" data-score="0" data-correct="false">
+                        Autism Spectrum Disorder
+                    </li>
+                </ol>
+                </div>
+
+                <div>
+                    <h2>
+                        2-Which of the following is a key feature of schizophrenia?
+                    </h2>
+                </div>
+
+                    <div>
+                        <ol>
+                            <li>
+                                <input type="radio" name="q2" value="Delusions and hallucinations" data-score="1" data-correct="true">
+                                Delusions and hallucinations
+                            </li>
+                            <li>
+                                <input type="radio" name="q2" value="Obsessive thoughts" data-score="0" data-correct="false">
+                                Obsessive thoughts
+                            </li>
+                            <li>
+                                <input type="radio" name="q2" value="Irrational fears" data-score="0" data-correct="false">
+                                Irrational fears
+                            </li>
+                            <li>
+                                <input type="radio" name="q2" value="Panic disorder" data-score="0" data-correct="false">
+                                Panic disorder
+                            </li>
+                        </ol>
+                    </div>
+                <div>
+                    <h2>
+                        3- What is the primary psychological consequence of work overload?
+                    </h2>
+                </div>
+                <div>
+                    <ol>
+                        <li>
+                            <input type="radio" name="q3" value="Increased stress and decreased productivity" data-score="0" data-correct="false">
+                            Increased stress and decreased productivity
+                        </li>
+                        <li>
+                            <input type="radio" name="q3" value="Job insecurity" data-score="0" data-correct="false">
+                            Job insecurity
+                        </li>
+                        <li>
+                            <input type="radio" name="q3" value="loss of Apetite" data-score="1" data-correct="true">
+                            loss of Apetite
+                        </li>
+                        <li>
+                            <input type="radio" name="q3" value="Self-Blame" data-score="0" data-correct="false">
+                            Self-Blame
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        <!-- for submit -->
+        <div id="subm">
+            <button type="submit">Submit</button>
+        </div>
+        </div>
+        <!-- <div class="mind"></div> -->
+        
+        
+    </div>
+</form>
+
+    <div id="score-container" style="display: none;">
+        <h2>Your Score:<span id="score"></span></h2>
+    </div>
+<script src="psychology.js"> </script>
+<!-- <script src="me.js"></script> -->
+</body>
+</html>

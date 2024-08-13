@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(30, 3, 43, 0.45);
+    overflow: hidden;
+    /* background-color: #fc7b7bcd; */
+
+}
+.container{
+    width: 80%;
+    min-height: 70vh;
+    background:#fff;
+    /* background: #a6a6a6; */
+    margin:60px;
+    padding: 50px;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5) ;
+/* Hey, start from the beginning of the shelf and stay there. If there's extra space, it's cool, just leave it on the right side." */
+    /* justify-content: flex-start; */
+    border-radius: 20px;
+    display: flex;
+    
+
+}
+.sky{
+    /* float: left; */
+    width:50% ;
+    min-height: 100%;
+    background-image: url('b.jpg');
+    background-size: cover;
+    /* position: relative; */
+    /* left: auto; */
+    border-radius: 20px;
+    background-position: left center;
+}
+
+.signup{
+    text-align: right;
+    margin:  20px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+
+}
+
+.info {
+    margin: 30px;
+    border: 2px solid #fff6f6;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    background-color: rgba(206, 194, 211, 0.45);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.info button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #bc3f97b5;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info button:hover {
+    background-color: #4750c5;
+}
+
+
+/* Viewport Height (vh): Think of it like a percentage of how tall your screen is. 
+If your screen is 1000 pixels tall, then 50vh is like saying "half of your screen's height."
+
+Pixels (px): These are the tiny dots that make up what you see on your screen. 
+If you say something is 100 pixels wide, it means it's exactly 100 of those tiny dots wide, no matter the size of your screen. */

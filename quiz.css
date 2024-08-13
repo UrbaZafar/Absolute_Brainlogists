@@ -1,0 +1,99 @@
+
+#moon{
+    font-size: 50px;
+    color: #fe8484;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* it gives my heading a but tilting or rotating effect */
+    /* deg =degrees */
+    transform: rotate(-5deg); 
+    padding: 10px;
+
+    /* aince margin ND Padding is already */
+    /* With box-sizing: border-box;, you're telling the browser to pack everything together neatly.*/
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first{
+    position: fixed;
+    /* top:0; */
+    /* left: 0; */
+    width: 100%;
+
+    /* padding of an element to 20 pixels on
+ the top and bottom, and 10% of the width of the containing element on the left and right sides. */
+    padding: 20px 10%;
+    /* background-color:transparent; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    
+
+}
+.navbar{
+    /* color: #fe8484; */
+    /* text-align: center; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: rotate(4deg);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 32px;
+    color:#fe8484;
+    text-decoration: none;
+    font-weight: 700 ;
+}
+
+.start{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: center; 
+}
+#loop{
+    
+        border: 2px solid rgb(236, 213, 240);
+        border-radius: 20px;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        background: linear-gradient(to right,  #f09494 0%, #e8c096 100%);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    
+}
+  #moon h3{
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .nope{
+    background: linear-gradient(to right, #f09494 0%, #e8c096 100%);
+    color: Black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .nope:hover {
+    background-color:transparent;
+    color:cornsilk; 
+  }  */
+  /* .logo img {
+    width: 200px; 
+    /* height: 100px;  */
+    /* margin: 0;
+    margin-left: 0;
+    padding:10px; */
+  /* } */ 
+  

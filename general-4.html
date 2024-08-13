@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="general.css">
+        
+</head>
+<body>
+<div id="quiz-container">
+    <form id="quiz-form">
+<div class="main">
+    <div id="qw">
+        <p>
+            I'm a tale of old, yet ever new,<br>
+            In pages turned, I come to you.<br>
+            From knights and queens to dragons bold,<br>
+            In me, adventures are often told.<br><br>
+            What am I?
+        </p>
+    </div>
+
+    <div class="mo">
+        <img src="book.jpg" width="300px" height="300px">
+    </div>
+
+</div>
+    <div class="keep">
+    <div id="moo">
+        <h3 id="question">
+            1-Who was the most cruel emperor?
+        </h3>
+    </div>
+    <div class="container-button">
+        <ol>
+            <!-- When the form is submitted, the value of the selected radio button is sent to the server. If the value attribute is not specified, 
+            the default value that is sent will be "on". -->
+            <!-- The name attribute in the <input> tag serves to identify the input when it is submitted within a form. -->
+            <!--The <input> tag with type="radio" creates a radio button -->
+            <li><input type="radio" name="q1" value="Caligula" data-score="1" data-correct="true">Caligula</li>
+            <li><input type="radio" name="q1" value="Commodus" data-score="0" data-correct="false">Commodus</li>
+            <li><input type="radio" name="q1" value="Genghis-khan" data-score="0" data-correct="false">Genghis-khan</li>
+            <li><input type="radio" name="q1" value="Augustus" data-score="0" data-correct="false">Augustus</li>
+        </ol>
+    </div>
+    </div>
+<div class="keep">
+    <div id="ni">
+        <h3>
+           2- What year did World War I begin?
+        </h3>
+    </div>
+    <div>
+        <ol>
+            <li><input type="radio" name="q2" value="1914" data-score="1" data-correct="true">1914</li>
+            <li><input type="radio" name="q2" value="1916" data-score="0" data-correct="false">1916</li> 
+            <li><input type="radio" name="q2" value="1918" data-score="0" data-correct="false">1918</li> 
+            <li><input type="radio" name="q2" value="1939" data-score="0" data-correct="false">1939</li>
+        </ol>
+    </div>
+</div>
+
+<div class="keep">
+    <div id="bo">
+        <h3>
+            3-What is the national flower of Pakistan?
+        </h3>
+    </div>
+    <div>
+        <ol>
+            <li><input type="radio" name="q3" value="Rose" data-score="0" data-correct="false">Rose</li>
+            <li><input type="radio" name="q3" value="Jasmine" data-score="1">Jasmine</li> 
+            <li><input type="radio" name="q3" value="Tulip" data-score="0" data-correct="false">Tulip</li>
+            <li><input type="radio" name="q3" value="Sunflower" data-score="0" data-correct="false">Sunflower</li> 
+        </ol>
+    </div> 
+</div>
+
+<div class="keep">
+
+    <div id="pi">
+        <h3>
+            4- In which year did Pakistan win its first Cricket World Cup?
+        </h3>
+    </div>
+    <div>
+        <ol>
+            <li><input type="radio" name="q4" value="1992" data-score="1" data-correct="true">1992</li>
+            <li><input type="radio" name="q4" value="1996" data-score="0" data-correct="false">1996</li>
+            <li><input type="radio" name="q4" value="1990" data-score="0" data-correct="false">1990</li>
+            <li><input type="radio" name="q4" value="1991" data-score="0" data-correct="false">1991</li>
+        </ol>
+    </div>
+</div>       
+ 
+<div class="keep">
+    <div id="aw">
+        <h3>
+            5-Which law states that "Anything that can go wrong will go wrong"?
+        </h3>
+    </div>
+    <div>
+        <ol>
+            <li><input type="radio" name="q5" value="Newton's Law of Motion" data-score="0" data-correct="false">Newton's Law of Motion</li>
+            <li><input type="radio" name="q5" value="Murphy's Law" data-score="1" data-correct="true">Murphy's Law</li>
+            <li><input type="radio" name="q5" value="Boyle's Law" data-score="0" data-correct="false">Boyle's Law</li>
+            <li><input type="radio" name="q5" value="Lenz's Law" data-score="0" data-correct="false">Lenz's Law</li>
+        </ol>
+    </div>
+</div>       
+    
+<div class="keep">
+    <div id="q">
+        <h3>
+            6-What is the theoretical structure that connects two distant places in spacetime called?
+        </h3>
+    </div>
+    <div>
+        <ol>
+            <li><input type="radio" name="q6" value="Wormhole" data-score="1" data-correct="true"> Wormhole</li>
+            <li><input type="radio" name="q6" value="Black hole" data-score="0" data-correct="false">Black Hole</li>
+            <li><input type="radio" name="q6" value="White hole" data-score="0" data-correct="false">White Hole</li>
+            <li><input type="radio" name="q6" value="Neutron star" data-score="0" data-correct="false">Neutron star</li>
+        </ol>
+    </div>
+</div>
+
+<div class="keep">
+    
+
+    <div id="re">
+        <h3>
+            7-Which river is known as the lifeline of Pakistan?
+        </h3>
+    </div>
+    <div>
+        <ol>
+            <li><input type="radio" name="q7" value="Indus River" data-score="1" data-correct="true">Indus River</li>
+            <li><input type="radio" name="q7" value="Jhelum River" data-score="0" data-correct="false"> Jhelum River</li>
+            <li><input type="radio" name="q7" value="Ravi River" data-score="0" data-correct="false">Ravi River</li>
+            <li><input type="radio" name="q7" value="Chenab River" data-score="0" data-correct="false">Chenab River</li>
+        </ol>
+    </div>
+</div>
+<div class="bee">
+    <input type="submit"  onclick="alert('Congratulations your form is submitted.& The answer is BOOKS')" value="Submit">
+</div>
+</form> 
+</div>
+    <!-- <div>
+    <h2>Your Score</h2>
+    </div>     -->
+    <div id="result-container" style="display:none;">
+        <h2>Your Score: <span id="score"></span></h2>
+    </div>
+ <script src="general.js"></script>
+</body>
+</html>

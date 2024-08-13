@@ -1,0 +1,71 @@
+/* body{
+    overflow: hidden;
+} */
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color:rgb(255, 255, 255) ;
+    /* Margins are used to create space around elements, outside of any defined borders. */
+    padding: 50px;
+    border: 2px solid #fff;
+    /* The shadow is defined by its horizontal and vertical offset (0 and 15 pixels, respectively), blur radius (40 pixels), */
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+.mind{
+    background-image: url('Skull.jpeg');
+    width: 600px;
+    height: 500px;
+    /* min-height: 100%; */
+    background-size: cover;
+    position: relative;
+    right: 2%;
+    background-position: left;
+}
+
+.quest{
+    border:none;
+    border-radius: 20px;
+    width:600px ;
+    margin: 20px;
+    height: 80vh;
+    position: relative;
+    right: 5%;
+    top: -30px;
+    padding: 20px;
+    background-color: #f4c5c07c;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.649);
+
+    /* 0 present  horizontal offset  */
+    /* (15px) represents the vertical offset of */
+    /* The third value (15px) is the blur radius of the shadow. */
+}
+
+#subm button {
+    border: none;
+    border-radius: 10px;
+    background-color:#48042ad1;
+    font-size: 20px;
+    color:white;
+    /* text-align: center; */
+    position: relative;
+    left: 50%;
+    /* When using position: relative with left: 50%, the element moves 50% of its own width to the right from its original position */
+}
+
+#score-container{
+    color: rgba(121, 60, 22, 0.717);
+    background-color:  #e3d0f0d4 50%;
+    font-size: 30px;
+    border: 4px solid rgba(121, 60, 22, 0.717);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+
+}

@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    /* overflow: hidden; */
+  }
+/* #mycanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+} */
+
+canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.641);
+  }
+.content{
+    position: relative;
+}
+.ip {
+    border: 2px solid rgb(253, 204, 251);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 70px auto;
+    box-shadow: 10px 10px 10px  rgba(233, 246, 218, 0.428);
+    width: 500px;
+    /* background: linear-gradient(to right,  #f9a5f0 0%, #c3efee88 100%); */
+    background: linear-gradient(to right,  #f09494 0%, #e8c096 100%);
+    /* background: rgb(204, 128, 218); */
+}
+#meelo{
+    position: fixed;
+    top: 20px; 
+    /* Adjust the distance from the top */ 
+    right: 20px;
+     /* Adjust the distance from the right */
+    background-color:  #f1c3b1ad ;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for effect */
+    /* z-index: 999;  */
+    /* Ensure it's above other elements */
+    transition:.5s;
+    cursor:pointer;
+}
+    
+#meelo h3{
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+#meelo:hover{
+    background:#f7f5f37e;
+  border-width: 4px;
+}  
+#map, #int, #app{
+    border: 2px solid rgb(253, 204, 251);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 40px auto;
+    box-shadow: 10px 10px 10px rgba(233, 246, 218, 0.428);
+    width: 400px;
+    /* background: linear-gradient(to right,  #f9a5f0 0%,#c3efee88 100%); */
+    background: linear-gradient(to right,  #f09494 0%, #e8c096 100%);
+    transition: all 0.3s ease;
+
+    /* background: rgb(238, 185, 247); */
+}
+#map a {
+    text-decoration: none;
+    color: black;
+}
+#int a{
+    text-decoration: none;
+    color: black;
+}
+#app a{
+    text-decoration: none;
+    color: black;
+}
+/* #nab a {
+    text-decoration: none;
+    color: black;
+} */
+#map:hover, #int:hover, #app:hover{
+    background: linear-gradient(to right, #ffc9c9 0%, #ffd8b1 100%);
+  border-width: 4px;
+}
+.urba{
+   position:absolute;
+   top:50px;
+   right:80px ; 
+/* This is a transformation function in CSS that moves an element along the horizontal and vertical axes. It takes two values: one for horizontal movement (X-axis) and one for vertical movement (Y-axis). */
+   transform: translate(20%, 10%);
+   width: 260px;
+   height: 340px;
+   background: linear-gradient(to right,  #eca6a6ad 0%, #f1cea7b0 100%);
+   border-radius: 6px;
+   padding: 10px 25px;
+   
+}
+.urba h2{
+   font-size: 30px;
+   color: #060006;
+}
+.urba.urb{
+    display: inline-block;
+    font-size: 10px;
+    color: #333;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 35px;
+}
